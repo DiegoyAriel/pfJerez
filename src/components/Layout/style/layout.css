@@ -1,0 +1,85 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(245, 240, 239);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50000;
+}
+.menu li{
+    list-style: none;
+}
+.link{
+    color: rgb(49, 15, 15);
+    text-decoration: none;
+    padding: 25px;
+    transition: all 0.7s ease;
+}
+.link:hover{
+    font-size: 25px;
+    transition: all 0.7s ease;
+}
+.link .carrito:hover{
+    font-size: 25px;
+    transition: all 0.7s ease;
+}
+.carrito img:hover{
+    height: 60px;
+    transition: all 0.7s ease;
+}
+.logo{
+    font-family: "Niconne",serif;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(49, 15, 15);
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+.logo:hover{
+    font-size: 50px;
+    transform: rotate(50deg);
+    transition: all 0.5s ease;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 240, 239);
+    position: fixed;
+    bottom: 0;
+    height: 75px;
+    width: 100%;
+}
+.carrito{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.carrito img{
+    height: 50px;
+    transition: all 0.7s ease;
+}
+.hero{
+    background-image:url("../../../assets/hero.jpg") ;
+    height: 200px;
+    background-size: contain;
+    margin: 75px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero h1{
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 50px;
+    transition: all 1s;
+}
+.hero h1:hover{
+    mix-blend-mode: normal;
+    font-size: 60px;
+    transition: all 1s;
+}

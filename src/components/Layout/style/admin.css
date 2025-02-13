@@ -1,0 +1,48 @@
+.admin-page {
+    width: 75%;
+    max-width: 75%;
+    margin: 90px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-page h1 {
+    text-align: center;
+    color: rgb(49, 1, 1);
+    font-size: 20px;
+  }
+  
+  .admin-page form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .admin-page .checkbox-group{
+    display: flex;
+    align-items: center;
+  }
+  .admin-page input[type="text"],
+  .admin-page input[type="number"],
+  .admin-page select,
+  .admin-page input[type="checkbox"] {
+    width: 100%;
+    border: 2px solid rgb(241, 148, 148);
+    border-radius: 6px;
+    font-size: 0.7rem;
+  }
+  
+  .admin-page button[type="submit"] {
+    background-color: rgb(241, 148, 148);
+    color: white;
+    font-size: 0.75rem;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-page button[type="submit"]:hover {
+    background-color: rgb(49, 1, 1);
+  }
+  

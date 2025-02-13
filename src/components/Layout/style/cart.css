@@ -1,0 +1,22 @@
+tbody img{
+    height: 200px;
+}
+.cart-table{
+    width: 100%;
+    text-align: center;
+}
+.total{
+    padding: 20px;
+    margin-right: 50px;
+    text-align: right;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-button{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(223, 179, 179);
+    border: none;
+    border-radius: 8px;
+}
